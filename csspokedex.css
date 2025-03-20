@@ -1,4 +1,4 @@
-.type, h1, h2, form{
+.type, h1, h2, form, li{
     text-align: center;
 }
 ::placeholder{
@@ -32,3 +32,13 @@ body{
     background-position: center center;
     background-color: yellow;
 }
+#pokemonlijst {
+    display: flex; 
+    justify-content: center; 
+    
+  }
+  #pokemonlijst ul {
+    list-style-type: none;
+    margin-right: 55px;
+  }
+  
